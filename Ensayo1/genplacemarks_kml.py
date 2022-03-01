@@ -172,7 +172,7 @@ centros_db
 
 relaciones_db = pandas.read_csv('relacion.csv')
 
-db = pandas.read_csv('tramas_export_1645791400550.csv')
+db = pandas.read_csv('tramas_export_1644927200787.csv')
 
 db['lng'] = db['longitude'].where(db['ns'] == 'S', -1*db['longitude'])
 db['lat'] = db['latitude'].where(db['ew'] == 'W', -1*db['latitude'])
